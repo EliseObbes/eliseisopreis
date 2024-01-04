@@ -105,7 +105,10 @@ li a:hover {
     padding-right: 100px;
     padding-top: 50px;
 }
-
+.text-right1 {
+    padding-right: 30px;
+    padding-top: 50px;
+}
 .text-left {
     padding-left: 80px;
     padding-top: 50px;
@@ -132,7 +135,17 @@ li a:hover {
     padding-right: 80px;
     margin-bottom: 120px;
     background-color: rgb(249, 242, 233);
+}
 
+.container-color2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    padding-right: 80px;
+    margin-bottom: 120px;
+    background-color: rgb(231, 248, 255);
 }
 
 .text {
@@ -177,7 +190,7 @@ li a:hover {
 }
 
 .text-box {
-    margin-top: 150px;
+    margin-top: 100px;
     align-items: center;
 
 }
@@ -190,12 +203,22 @@ li a:hover {
     padding-bottom: 20px;
 }
 
-.box-nyc {
-    padding: 10px;
-}
 
 .box-nyc img {
     width: 19em;
+    padding: 10px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.box-cura img {
+    width: 24em;
+    padding: 10px;
 }
 
 .box {
